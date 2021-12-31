@@ -1,0 +1,35 @@
+div p small{    /*Это последовательность*/
+    color: brown;
+    size: 30;
+    background-color: chartreuse;
+}
+
+ul li > span{ /*Указывается прямой потомок (родитель>потомок)*/
+    color: crimson;
+    font-weight: bolder;
+}
+
+ul li + li{ /**/
+    background-attachment: fixed;
+    font: 1em sans-serif;
+    background-origin: padding-box;
+    color: tomato;
+}
+
+br ~ p{
+    color: rgb(255, 0, 0);
+    size: 18;
+    background-color: rgba(42, 185, 66, 0.514);
+}
+
+a[target]{
+    background-color: yellow;
+}
+
+a[target="_blank"]{
+    background-color: rgb(151, 151, 87);
+}
+
+a[href$=".jpg"]{
+    background-color: rgb(224, 64, 64);
+}

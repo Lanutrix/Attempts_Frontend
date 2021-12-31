@@ -1,10 +1,24 @@
-.yt{
-    color: brown;   
-}
+
 
 .css_poligon{
     font-size: larger;
-    color: green;
     size: 15;
-    background-color: papayawhip;
+    background-color: rgb(255, 157, 0);
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+a:active{
+    color: blue;
+}
+a:hover{
+    color: blue;}
+
+a.yt{
+        color: brown;   
+    }
+
+a:active{
+    color: #000;
 }
