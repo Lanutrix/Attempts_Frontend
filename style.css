@@ -3,7 +3,7 @@
 .css_poligon{
     font-size: larger;
     size: 15;
-    background-color: rgb(255, 157, 0);
+    background-color: rgb(255 198 105);
     text-decoration: none;
 }
 a:visited{
@@ -21,4 +21,8 @@ a.yt{
 
 a:active{
     color: #000;
+}
+
+a:focus{
+    font-weight: bold;
 }
