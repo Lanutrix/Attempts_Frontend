@@ -1,0 +1,43 @@
+.name{
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    color: darkblue;
+    top: 0px;
+    left: 150px;
+}
+
+.pdiv{
+    display: inline;
+    color: peru;
+}
+.levo{
+    position: absolute;
+    display: inline-block;
+    border: 2px solid black;
+    margin-right: 0px;
+    width: 67px;
+    height: 250px;
+    /*padding-right: 10px;
+    padding-bottom: 100px;
+    vertical-align: text-top;*/
+    
+}
+.pravo{
+    position: relative;
+    width: 550px;
+    margin-left: 0px;
+    left: 90px;
+    right: 0px;
+    vertical-align: text-top;
+}
+.blok{
+    width: 630px;
+    border: 3px solid black;
+
+}
+a{
+    width: 50px;
+    height: 252px;
+    text-decoration: none;
+    color: blue;
+}
