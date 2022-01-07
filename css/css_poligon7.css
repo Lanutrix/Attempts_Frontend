@@ -5,7 +5,20 @@
     color: black;
     font-size: 35px;
 }
+.ru{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-weight: bold;
+}
 
+.shrift{
+    font-family: 'Island Moments', cursive;
+}
+
+h1{
+    text-align: center;
+}
 
 .wr{
     background-color: gray;
@@ -24,4 +37,12 @@
 }
 .itm3{
     background-color: darkorange;
+}
+
+.pod4{
+    color: rgb(12, 12, 10);
+    text-decoration: underline overline;
+    letter-spacing: 3px;
+    word-spacing: 15px;
+    text-transform: capitalize;
 }
