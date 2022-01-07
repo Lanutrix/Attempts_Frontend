@@ -1,0 +1,41 @@
+li {
+    font-size: 80%;
+  }
+  
+  .main {
+    font-size: 40px;
+  }
+  
+/*  html {
+    font-size: 30px;
+  }*/
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    position: absolute;
+  
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    /* width: calc(100px + 200px + 1rem); */
+  
+    z-index: 1;
+  }
+  
+ /* .modal {
+    border: 2px solid black;
+    width: 300px;
+    height: 100px;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+  
+    z-index: 2;
+    overflow: hidden;
+  }*/
