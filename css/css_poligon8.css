@@ -1,0 +1,52 @@
+.example {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: 20px;
+  
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: red; */
+  
+    border: 10px solid red;
+  
+    /*border-right: none;
+    border-right-style: none;*/
+  
+    border-bottom-width: 20px;
+    border-left-color: green;
+    border-top-color: green;
+    outline: 10px solid aqua;
+  }
+  
+  button:focus,
+  input:focus {
+    outline: 2px solid aqua;
+  }
+  
+  h1 {
+    text-shadow: 1px 2px 5px red, -1px -2px 5px green;
+  }
+  
+  .shadow {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: 20px;
+  
+    box-shadow: inset 1px 2px 5px blue, inset -1px -2px 5px aqua;
+  }
+
+.skrg{
+    border-radius: 0% 30% 30% 30%;
+    box-shadow: green inset 3px 3px 6px;
+}
+
+
+ul li{
+    font-size: 32px;
+    color: green;
+    text-transform: capitalize;
+    list-style-image: url(/home/dmodv/git_project/site/img/icon_li.png);
+    /*list-style: circle;*/
+}
