@@ -10,9 +10,12 @@ p{
 .wrapper {
     min-height: 100vh;
     width: 100%;
-  
-    background-color: rgba(0, 0, 0, 0.9);
-    background-image: url(https://on-desktop.com/wps/World___Norway_Boat_at_the_pier_of_a_mountain_lake_in_Norway_107911_.jpg);
+    /*background-image: url(https://on-desktop.com/wps/World___Norway_Boat_at_the_pier_of_a_mountain_lake_in_Norway_107911_.jpg);
+    
+    background-size: 30% 30%;
+    background-repeat: no-repeat;
+    background-position: right bottom;*/
+    background-image: repeating-linear-gradient(45deg, rgba(0,255,0,0.5), rgba(255,0,0,0.5), rgba(0,0,255,0.5),  rgb(15,125,125));
     /*background-image: url(https://images.pexels.com/photos/691571/pexels-photo-691571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-size: cover;
     background-size: auto 300px;
@@ -29,6 +32,14 @@ input{
     background-color: rgba(0, 0, 0, 0);
     color: green;
     font-size: 20px;
-    width: 70%;
+    width: 90%;
     min-height: 20px;
 }
+.otp{
+    background-image: url(/home/dmodv/git_project/site/img/icon_li.png);
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
