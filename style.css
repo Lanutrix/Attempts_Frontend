@@ -32,7 +32,7 @@ a:focus{
 }
 .css_poligon:hover{
     color: rgba(0, 0, 0, 0.85);
-    background-image: repeating-linear-gradient(75deg,rgba(255, 0, 255, 0.5), rgba(0, 255, 255, 0.5));
+    background-image: repeating-linear-gradient(75deg,rgba(255, 0, 0, 0.6), rgba(229, 255, 0, 0.6));
     transform: scale(1.15);
     filter: saturate(150%);
 
@@ -46,7 +46,7 @@ a:focus{
 
 
 .grad{
-    background-image: repeating-linear-gradient(300deg, rgb(255, 66, 66), rgb(66, 66, 255));
+    background-image: repeating-linear-gradient(300deg, rgba(66, 255, 230, 0.5), rgba(0, 26, 255, 0.5));
 }
 img{
     transition: all 0.5s ease;
