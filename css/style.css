@@ -1,3 +1,13 @@
 .container {
     margin: 0px 166px;
 }
+
+span{
+    margin-left: 20px;
+    font-size: larger;
+}
+
+span:hover{
+    color: brown;
+    font-weight: bold;
+}
