@@ -26,9 +26,12 @@ a:hover {
     opacity: 0.8;
 }
 
+
+/**! HEDER**/
 .header {
     display: flex;
     justify-content: space-between;
+
     margin-top: 50px;
     margin-left: 150px;
     margin-right: 58px;
@@ -53,8 +56,8 @@ a:hover {
 .logo::after {
     content: "VPN";
     color: #0B132A;
-font-size: 20px;
-font-weight: 700;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .nav {
@@ -76,3 +79,89 @@ font-weight: 700;
     padding: 13px 45px;
     margin-left: 30px;
     }
+
+/*! Block1*/
+.main {
+    
+}
+.block1 {
+   margin-left: 150px;
+   margin-top: 100px;
+   margin-right: 80px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.textvpn {
+    width: 555px;
+}
+.wwles {
+    color: #0B132A;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px; /* 140% */
+    
+    height: 140px;
+}
+
+.wwles::after {
+    content: 'LaslesVPN.';
+    font-weight: 700;
+}
+
+
+.textvpn .wwles__text--bold {
+    color: #4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+}
+
+.wwles__text {
+    margin-bottom: 50px;
+}
+
+.btn {
+    border-radius: 10px;
+    background: #F53838;
+    padding: 18px 78px ;
+    color: #FFF;
+    font-weight: 700;
+    line-height: 25px; /* 156.25% */
+    box-shadow: 0px 20px 27px -1px rgba(245, 56, 56, 0.35);
+}
+
+/*!  Statistics */
+.statistics {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    height: 200px;
+    margin: 100px 150px 0;
+
+    border-radius: 10px;
+    box-shadow: 0px 220px 450px -45px rgba(13, 16, 37, 0.2);
+ 
+}
+.bord {
+   max-height: 125px;
+}
+.users {
+}
+.statistics__img {
+}
+.statistics__num {
+}
+.statistics__text {
+}
+
+.left__img {
+    margin-left: 90px;
+}
+
+.right__img {
+    margin-right: 90px;
+}
